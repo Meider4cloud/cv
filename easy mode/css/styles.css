@@ -1,0 +1,56 @@
+/* 
+colors:
+F2DEBA
+FFEFD6
+0E5E6F
+3A8891
+*/
+
+body {
+    background-color: #F2DEBA;
+}
+
+hr {
+    border-color: #0E5E6F;
+    border-style: none;
+    border-top-style: outset;
+    border-width: 10px;
+    width: 90%;
+
+}
+
+h1 {
+    color: #3A8891;
+}
+
+h3 {
+    color: #3A8891;
+    text-align: center;
+
+}
+
+ul {
+    text-align: center;
+    background-color: #FFEFD6;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ol {
+    text-align: center;
+    background-color: #FFEFD6;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+table {
+    text-align: center;
+    background-color: #FFEFD6;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+img {
+    height: 500px;
+}

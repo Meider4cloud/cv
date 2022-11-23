@@ -1,49 +1,41 @@
 /* 
 colors:
-F2DEBA
-FFEFD6
-0E5E6F
-3A8891
+#F2DEBA
+#FFEFD6
+#0E5E6F
+#3A8891
 */
 
+/* ******** HTML Selectors********* */
+
 body {
-    background-color: #F2DEBA;
+    margin: 0px
 }
 
-hr {
-    border-color: #0E5E6F;
-    border-style: none;
-    border-top-style: outset;
-    border-width: 10px;
-    width: 90%;
 
+div {
+    background-color: #F2DEBA;
+    padding: 2%;
 }
 
 h1 {
-    color: #3A8891;
+    margin-top: 0px;
 }
 
-h3 {
-    color: #3A8891;
-    text-align: center;
+/* ******** Class Selectors********* */
 
+.top-container {
+    background-color: #F2DEBA;
 }
 
-ul {
-    text-align: center;
-    background-color: #FFEFD6;
-    margin-left: 10%;
-    margin-right: 10%;
+.middle-container {
+    width: 200px;
+    height: 200px;
+    background-color: red;
 }
 
-table {
-    text-align: center;
-    background-color: #FFEFD6;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
-}
-
-img {
-    height: 500px;
+.botton-container {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
 }
